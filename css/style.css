@@ -2,7 +2,7 @@
 p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td{ margin:0; padding:0; }
 address, cite, dfn, em, var { font-style:normal; }
 code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
-small{ font-size:12px; }
+small{ font-size:12px; }
 ul, ol { list-style:none; }
 a { text-decoration:none; }
 a:hover { text-decoration:underline; }
@@ -17,11 +17,12 @@ body{
 	margin: 0;
 }
 
+
+
 header{
 	height: 250px;
 	width: 100%;
 	background-image: url(../img/header.jpg);
-	background-attachment: fixed;
 	background-position-x:center ;
 	background-repeat: no-repeat;
 }
@@ -84,8 +85,9 @@ header{
 	color: #555555;
 	line-height: 1.5;
 }
-small{
+.small{
 	color: #777777;
+	font-size:12px;
 }
 .school::before{
 	position: relative;
