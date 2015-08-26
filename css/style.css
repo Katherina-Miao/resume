@@ -1,0 +1,119 @@
+//初始化
+p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td{ margin:0; padding:0; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; } 
+body{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	height: 250px;
+	width: 100%;
+	background-image: url(../img/header.jpg);
+	background-attachment: fixed;
+	background-position-x:center ;
+	background-repeat: no-repeat;
+}
+#photo{
+	height:200px;
+	width: 200px;
+	position: relative;
+	top: 150px;
+	left: 50px;
+}
+.traslate{
+	position: relative;
+	left:80%;
+	top:-50px;
+}
+.intro .education .experience .technique .hobby{
+	width: 70%;
+	margin: 0 20px;
+}
+.intro{
+	padding: 100px 15%;	
+}
+.intro p{
+	color: #777;
+	margin-bottom: 20px;
+}
+.details{
+	padding-top: 10px;
+}
+.details li{
+	font-size: 1.25em;
+	margin-top: 10px;
+	color: #555;
+	float: left;
+	width: 40%;
+}
+.education{
+	padding: 20px 15%;
+	background: #e9eff2;
+}
+.icon{
+	width:30px;
+}
+.technique{
+	padding: 20px 15%;
+	background: #e9eff2;
+	overflow: auto;
+}
+.experience{
+	padding: 20px 15%;
+}
+.hobby{
+	padding: 20px 15%;
+}
+.school{
+	padding-left: 20px;
+	border-left: solid 3px #d4d4d4;
+}
+ p{
+	color: #555555;
+	line-height: 1.5;
+}
+small{
+	color: #777777;
+}
+.school::before{
+	position: relative;
+	content: url(../img/sec-d.png);
+	left: -30px;
+	top: 0;
+}
+.project img{
+	box-shadow:5px 5px 3px #888888;;
+	width:500px;
+	margin-bottom: 10px;
+	position: relative;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.skill{
+	width:40%;
+	float: left;
+	margin-right: 5%;
+}
+.clear{
+	clear: both;
+}
+.gallery img{
+	width: 20%;
+	height: 20%;
+	margin-left:3%;
+	border:double 2px #005580;
+	box-shadow: 2px 2px 3px #777;
+	
+}
