@@ -1,4 +1,4 @@
-//初始化
+/*初始化*/
 p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td{ margin:0; padding:0; }
 address, cite, dfn, em, var { font-style:normal; }
 code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
@@ -169,17 +169,21 @@ header{
 }
 .technique{
 	padding: 20px 15%;
-	background: #e9eff2;
 	overflow: auto;
 }
 .experienceW, .experienceP{
 	padding: 20px 15%;
 }
 .experienceW{
+	padding: 20px 15%;
+	background: #e9eff2;
+}
+.experienceW{
 	background: #e9eff2;
 }
 .hobby{
 	padding: 20px 15%;
+	background: #e9eff2;
 }
 .school{
 	padding-left: 20px;
