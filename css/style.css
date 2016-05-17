@@ -1,4 +1,4 @@
-//初始化
+/*初始化*/
 p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td{ margin:0; padding:0; }
 address, cite, dfn, em, var { font-style:normal; }
 code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
@@ -38,7 +38,7 @@ header{
 	left:80%;
 	top:-50px;
 }
-.intro .education .experience .technique .hobby{
+.intro .education .experienceP .experienceW .technique .hobby{
 	width: 70%;
 	margin: 0 20px;
 }
@@ -68,18 +68,23 @@ header{
 }
 .technique{
 	padding: 20px 15%;
-	background: #e9eff2;
 	overflow: auto;
 }
-.experience{
+.experienceP{
 	padding: 20px 15%;
+}
+.experienceW{
+	padding: 20px 15%;
+	background: #e9eff2;
 }
 .hobby{
 	padding: 20px 15%;
+	background: #e9eff2;
 }
 .school{
 	padding-left: 20px;
 	border-left: solid 3px #d4d4d4;
+	float: left;
 }
  p{
 	color: #555555;
@@ -94,6 +99,7 @@ header{
 	content: url(../img/sec-d.png);
 	left: -30px;
 	top: 0;
+	float: left;
 }
 .project img{
 	box-shadow:5px 5px 3px #888888;;
