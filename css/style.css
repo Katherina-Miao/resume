@@ -280,7 +280,7 @@ header{
 	.percent {
 		display: block !important;
 	}
-	.traslate {
+	.traslate, .hobby {
 		display: none;
 	}
 }
