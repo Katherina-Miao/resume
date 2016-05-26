@@ -280,4 +280,7 @@ header{
 	.percent {
 		display: block !important;
 	}
+	.traslate {
+		display: none;
+	}
 }
