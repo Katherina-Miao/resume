@@ -252,6 +252,12 @@ header{
 
 }
 @media print{
+	* {
+		background: none;
+	}
+	section img{
+		display: none;
+	}
 	a {
 		color: black;
 	}
@@ -262,11 +268,11 @@ header{
 		margin: 0.5em 2em;
 	}
 	header{
-		height: 200px;
+		height: 125px;
 	}
 	#photo{
-		top: 0;
-		left: 0;
+		top: -10px;
+		left: 300px;
 	}
 	.intro{
 		padding: 0 15%;	
